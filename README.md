@@ -1,6 +1,6 @@
 # Bharatanatyam Mudra Recognition
 
-A student-level machine learning project that recognizes five Bharatanatyam hand mudras from images using a small custom CNN and a Streamlit application.
+Machine learning project that recognizes five Bharatanatyam hand mudras from images.
 
 Streamlit app link: https://ictexitexam-project.streamlit.app/
 
