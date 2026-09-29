@@ -1,0 +1,104 @@
+{
+  "classes": [
+    "Musti",
+    "Pataka",
+    "Sikhara",
+    "Simhamukha",
+    "Trisula"
+  ],
+  "image_size": 64,
+  "train_images": 1400,
+  "augmented_copies": 1400,
+  "validation_images": 300,
+  "test_images": 300,
+  "best_config": {
+    "config": "A",
+    "learning_rate": 0.001,
+    "dropout": 0.3
+  },
+  "clean_test_accuracy": 1.0,
+  "clean_confusion_matrix": [
+    [
+      60,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      60,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      60,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      60,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      60
+    ]
+  ],
+  "stress_accuracy": 0.67,
+  "stress_misclassified_count": 99,
+  "classification_report": {
+    "Musti": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "Pataka": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "Sikhara": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "Simhamukha": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "Trisula": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 300.0
+    }
+  }
+}
