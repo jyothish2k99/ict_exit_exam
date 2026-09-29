@@ -2,6 +2,8 @@
 
 A student-level machine learning project that recognizes five Bharatanatyam hand mudras from images using a small custom CNN and a Streamlit application.
 
+Streamlit app link: https://ictexitexam-project.streamlit.app/
+
 ## Project structure
 
 ```text
